@@ -26,6 +26,12 @@ namespace IDTKERC20:
     func allowance(owner : felt, spender : felt) -> (remaining : Uint256):
     end
 
+    func increaseAllowance(spender: felt, added_value: Uint256) -> (success: felt):
+    end
+    
+    func decreaseAllowance(spender: felt, subtracted_value: Uint256) -> (success: felt):
+    end
+
     func transfer(recipient : felt, amount : Uint256) -> (success : felt):
     end
 
